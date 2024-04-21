@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de mensajería</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- open sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <!-- menú lateral -->
+      <div class="menu">
+        <!-- usuario seleccionado -->
+        <div class="selected-user">
+          <div>
+            <img
+              src="./assets/img/maria.jpg"
+              class="selected-user-img"
+              alt=""
+            />
+          </div>
+          <div>
+            <p class="selected-user-name open-sans-regular">Maria</p>
+            <p class="selected-user-status open-sans-regular">Activa ahora</p>
+          </div>
+          <div class="message-icon">
+            <i class="fa-regular fa-message"></i>
+          </div>
+          <div class="bars-icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <!-- botón nuevo chat -->
+        <div class="nuevo-chat">
+          <button class="open-sans-regular">Nuevo chat</button>
+        </div>
+        <!-- perfil 01 -->
+        <div class="user">
+          <div>
+            <img src="./assets/img/juanita.jpg" class="user-img" alt="" />
+          </div>
+          <div>
+            <p class="open-sans-regular user-name">Juanita</p>
+            <p class="open-sans-regular user-status">Desconectada</p>
+          </div>
+        </div>
+        <!-- perfil 02 -->
+        <div class="user">
+          <div>
+            <img src="./assets/img/alberto.jpg" class="user-img" alt="" />
+          </div>
+          <div>
+            <p class="open-sans-regular user-name">Alberto</p>
+            <p class="open-sans-regular user-status">Desconectado</p>
+          </div>
+        </div>
+        <!-- perfil 03 -->
+        <div class="user">
+          <div>
+            <img src="./assets/img/ignacio.jpg" class="user-img" alt="" />
+          </div>
+          <div>
+            <p class="open-sans-regular user-name">Ignacio</p>
+            <p class="open-sans-regular user-status">Desconectado</p>
+          </div>
+        </div>
+        <!-- perfil 04 -->
+        <div class="user">
+          <div>
+            <img src="./assets/img/cristian.jpg" class="user-img" alt="" />
+          </div>
+          <div>
+            <p class="open-sans-regular user-name">Cristian</p>
+            <p class="open-sans-regular user-status">Desconectado</p>
+          </div>
+        </div>
+        <!-- perfil 05 -->
+        <div class="user">
+          <div>
+            <img src="./assets/img/maria-jose.jpg" class="user-img" alt="" />
+          </div>
+          <div>
+            <p class="open-sans-regular user-name">María José</p>
+            <p class="open-sans-regular user-status">Desconectada</p>
+          </div>
+        </div>
+        <!-- perfil 06 -->
+        <div class="user">
+          <div>
+            <img src="./assets/img/gonzalo.jpg" class="user-img" alt="" />
+          </div>
+          <div>
+            <p class="open-sans-regular user-name">Gonzalo</p>
+            <p class="open-sans-regular user-status">Desconectado</p>
+          </div>
+        </div>
+        <!-- perfil 07 -->
+        <div class="user">
+          <div>
+            <img src="./assets/img/juan-pablo.jpg" class="user-img" alt="" />
+          </div>
+          <div>
+            <p class="open-sans-regular user-name">Juan Pablo</p>
+            <p class="open-sans-regular user-status">Desconectado</p>
+          </div>
+        </div>
+        <!-- perfil 08 -->
+        <div class="user">
+          <div>
+            <img src="./assets/img/magdalena.jpg" class="user-img" alt="" />
+          </div>
+          <div>
+            <p class="open-sans-regular user-name">Magdalena</p>
+            <p class="open-sans-regular user-status">Desconectada</p>
+          </div>
+        </div>
+      </div>
+      <!-- Sección networking -->
+      <div class="networking">
+        <!-- imagen -->
+        <div>
+          <img src="./assets/img/hand.png" class="networking-img" alt="" />
+        </div>
+        <!-- texto -->
+        <div>
+          <h1 class="roboto-bold networking-title">Comienza el Networking</h1>
+        </div>
+        <div>
+          <p class="open-sans-regular networking-text">
+            Presiona el botón <strong>“Nuevo chat”</strong> para comenzar a
+            crear nuevas<br>
+            redes de contacto para tu empresa o emprendimiento.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
